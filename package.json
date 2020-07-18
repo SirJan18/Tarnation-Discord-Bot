@@ -1,0 +1,29 @@
+{
+  "name": "tarnation",
+  "version": "1.0.0",
+  "description": "Tarnation Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirJan18/Tarnation-Discord-Bot.git"
+  },
+  "author": "Sirio Jansen-Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirJan18/Tarnation-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/SirJan18/Tarnation-Discord-Bot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
